@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
+import { OnSalePipe } from './on-sale.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    OnSalePipe
   ],
   imports: [
     BrowserModule,

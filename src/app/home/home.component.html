@@ -38,4 +38,32 @@
         {{car}}
     </li>
   </div>
+
+  <h1 class="green">Done</h1>
+  <table>
+    <tr>
+      <th>
+
+      </th>
+      <th>
+
+      </th>
+      <th>
+
+      </th>
+    </tr>
+    <tr *ngFor="let car of carsObj; let i = index" >
+      <td>
+        {{i + 1}}
+      </td>
+      <td>
+        {{ car.name | uppercase }}
+      </td>
+      <td>
+        <span [ngClass]="{'green' : car.price > 0  }">
+          {{car.price | number | onSale}}
+        </span>
+      </td>
+    </tr>
+  </table>
 </div>
