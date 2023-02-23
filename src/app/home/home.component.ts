@@ -8,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   public name = "123";
-  constructor() {
+  public age = 18;
+  public cars = ["xe1","xe2","xe3","","","","","","","","","","","","","",""];
+
+  constructor() {  }
+
+   public ngOnInit(): void {
 
   }
-  ngOnInit(): void {
+
+  public buttonReset(): void {
+    debugger;
+    this.name = "";
 
   }
 }

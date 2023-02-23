@@ -1,4 +1,41 @@
 <h2>Home</h2>
 <div>
-  {{ name }}
+ tên {{ name }}
+</div>
+<div>
+
+  <input type="text" [(ngModel)]="name" />
+  <br>
+  <input type="text" [value]="name" >
+
+
+  <h1 class="green">done</h1>
+  <br>
+
+
+  <button (click)="buttonReset()">
+
+  </button>
+
+  <h1 class="green">done</h1>
+
+
+  <div *ngIf="age > 18; then objA; else objB ">
+
+  </div>
+
+  <ng-template #objA>
+    class A
+  </ng-template>
+
+  <ng-template #objB>
+    class B
+  </ng-template>
+  <h1 class="green" >done </h1>
+
+  <div *ngFor="let car of cars">
+    <li>
+        {{car}}
+    </li>
+  </div>
 </div>
