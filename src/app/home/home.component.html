@@ -66,4 +66,23 @@
       </td>
     </tr>
   </table>
+
+
+
+<select name="" id="thanhpho" (change)="onChangeThanhPho($event)">
+  <option *ngFor="let citi of citis" [value]="citi.name">
+
+    {{citi.name | uppercase}}
+
+  </option>
+</select>
+<br>
+<select name="" id="quanhuyen">
+  <option *ngFor="let district of districts" value="">
+
+    {{district | uppercase}}
+
+  </option>
+</select>
+
 </div>
