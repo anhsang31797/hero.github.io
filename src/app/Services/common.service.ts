@@ -27,7 +27,7 @@ export class CommonService {
 
 
   public submitData(n: any): void {
-    console.log('thành công' + n);
+    console.log('thành công'  , n);
   }
 
 

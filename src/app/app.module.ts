@@ -10,7 +10,8 @@ import { OnSalePipe } from './on-sale.pipe';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HighLightDirective } from './Directices/high-light.directive';
 import { FormComponent } from './form/form.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,13 @@ import { FormComponent } from './form/form.component';
     OnSalePipe,
     PageNotFoundComponent,
     HighLightDirective,
-    FormComponent
+    FormComponent,
+    ProfileEditorComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     FormsModule
   ],
   providers: [],

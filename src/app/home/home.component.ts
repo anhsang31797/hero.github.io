@@ -89,7 +89,6 @@ export class HomeComponent implements OnInit {
   public ngOnInit(): void {}
 
   public buttonReset(): void {
-    debugger;
     this.name = '';
   }
 }
