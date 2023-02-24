@@ -19,7 +19,7 @@ import { FormComponent } from './form/form.component';
     OnSalePipe,
     PageNotFoundComponent,
     HighLightDirective,
-    FormComponent
+    FormComponent,
   ],
   imports: [
     BrowserModule,
