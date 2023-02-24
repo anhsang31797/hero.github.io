@@ -6,6 +6,17 @@
 <ul [ngSwitch]="loginUser" >
   <li *ngSwitchCase="'user'" ><p>User is logged in ...</p></li>
   <li *ngSwitchCase="'admin'" ><p>Admin is logged in</p>
+    <span>
+      Count = {{counter}}
+    </span>
+    <br>
+    <span>
+      countBinhPhuong = {{counterBinhPhuong}}
+    </span>
+    <br>
+    <button (click)="tang()">
+      tang
+    </button>
   </li>
   <li *ngSwitchDefault="" ><p>Please choose login name</p></li>
 </ul>
