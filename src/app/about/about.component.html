@@ -1,6 +1,11 @@
-<h2>About</h2>
+<h2 appHighLight style="width: 200px; border: 1px solid;">About 1</h2>
+<h2 [appHighLight]="myColor">About 2</h2>
+<h2 [appHighLight]="'red'">About 3</h2>
+
+
 <ul [ngSwitch]="loginUser" >
   <li *ngSwitchCase="'user'" ><p>User is logged in ...</p></li>
-  <li *ngSwitchCase="'admin'" ><p>Admin is logged in</p></li>
+  <li *ngSwitchCase="'admin'" ><p>Admin is logged in</p>
+  </li>
   <li *ngSwitchDefault="" ><p>Please choose login name</p></li>
 </ul>

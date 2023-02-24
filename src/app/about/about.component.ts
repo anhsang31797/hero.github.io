@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  public loginUser = '';
+  public loginUser = 'admin';
+  public myColor = 'green';
 
   constructor (){}
 
