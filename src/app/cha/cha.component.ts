@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cha.component.css']
 })
 export class ChaComponent {
-
+  onDataReceived(data: string) {
+    console.log('DATA:', data);
+  }
 }
