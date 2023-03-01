@@ -15,6 +15,7 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
 import { GetDataComponent } from './get-data/get-data.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ChaComponent } from './cha/cha.component';
+import { ConnComponent } from './conn/conn.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ChaComponent } from './cha/cha.component';
     ProfileEditorComponent,
     GetDataComponent,
     ChaComponent,
+    ConnComponent,
 
    ],
   imports: [
