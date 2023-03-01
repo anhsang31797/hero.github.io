@@ -16,6 +16,7 @@ import { GetDataComponent } from './get-data/get-data.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ChaComponent } from './cha/cha.component';
 import { ConnComponent } from './conn/conn.component';
+import { RXJSComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ConnComponent } from './conn/conn.component';
     GetDataComponent,
     ChaComponent,
     ConnComponent,
+    RXJSComponent,
 
    ],
   imports: [

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { ChaComponent } from './cha/cha.component';
+import { RXJSComponent } from './rxjs/rxjs.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'profile-editor', component: ProfileEditorComponent },
   {path: 'get-data', component: GetDataComponent },
   {path: 'cha', component: ChaComponent },
+  {path: 'RSJX', component: RXJSComponent },
   {path: '**', component: PageNotFoundComponent }];
 
 
