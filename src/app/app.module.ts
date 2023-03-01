@@ -12,6 +12,9 @@ import { HighLightDirective } from './Directices/high-light.directive';
 import { FormComponent } from './form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { GetDataComponent } from './get-data/get-data.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -22,13 +25,15 @@ import { ProfileEditorComponent } from './profile-editor/profile-editor.componen
     PageNotFoundComponent,
     HighLightDirective,
     FormComponent,
-    ProfileEditorComponent
+    ProfileEditorComponent,
+    GetDataComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,4 @@
+import { GetDataComponent } from './get-data/get-data.component';
 import { FormComponent } from './form/form.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent },
   {path: 'form', component: FormComponent },
   {path: 'profile-editor', component: ProfileEditorComponent },
+  {path: 'get-data', component: GetDataComponent },
   {path: '**', component: PageNotFoundComponent }];
 
 
