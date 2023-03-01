@@ -6,8 +6,6 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
-import { ChaComponent } from './cha/cha.component';
-import { ConComponent } from './con/con.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent },
@@ -15,8 +13,6 @@ const routes: Routes = [
   {path: 'form', component: FormComponent },
   {path: 'profile-editor', component: ProfileEditorComponent },
   {path: 'get-data', component: GetDataComponent },
-  {path: 'cha', component: ChaComponent },
-  {path: 'con', component: ConComponent },
   {path: '**', component: PageNotFoundComponent }];
 
 

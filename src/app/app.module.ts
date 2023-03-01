@@ -14,9 +14,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { GetDataComponent } from './get-data/get-data.component';
 import { HttpClientModule } from '@angular/common/http';
-import { ChaComponent } from './cha/cha.component';
-import { ConComponent } from './con/con.component';
-
 
 @NgModule({
   declarations: [
@@ -29,8 +26,7 @@ import { ConComponent } from './con/con.component';
     FormComponent,
     ProfileEditorComponent,
     GetDataComponent,
-    ChaComponent,
-    ConComponent
+
    ],
   imports: [
     BrowserModule,
