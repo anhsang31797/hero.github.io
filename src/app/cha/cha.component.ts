@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cha.component.css']
 })
 export class ChaComponent {
+  public parentProp = '123';
   onDataReceived(data: string) {
     console.log('DATA:', data);
   }

@@ -1,2 +1,5 @@
 <p>cha works!</p>
-<app-conn (dataEmitter)="onDataReceived($event)"></app-conn>
+<app-conn
+(dataEmitter)="onDataReceived($event)"
+[childProp]="parentProp"
+></app-conn>
